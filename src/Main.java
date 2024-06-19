@@ -12,6 +12,7 @@ public class Main {
     public static final String ANSI_WHITE = "\u001B[37m";
 
     public static void main(String[] args) {
+        // Variables
         String a = "3";
         String b = "+";
         String c = "7";

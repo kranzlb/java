@@ -60,5 +60,11 @@ public class Main {
 
         // 01_ue_variablen1
 
+            // test
+            Integer int1 = 1;
+            String str1="asdf";
+            // int+string muss als string gespeichert werden (int wird umgewandelt)
+            String test = int1+str1;
+            System.out.println(test);
     }
 }

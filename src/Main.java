@@ -56,15 +56,30 @@ public class Main {
 
         // Argumente werden oben rechts unter Main->Edit Configurations unter Build and Run
         // eingetragen und im args-Array gespeichert
-        System.out.println("Das erste Arbument ist "+args[0]+" das zweite Arbument ist "+args[1]);
+        //System.out.println("Das erste Arbument ist "+args[0]+" das zweite Arbument ist "+args[1]);
 
         // 01_ue_variablen1
 
-            // test
-            Integer int1 = 1;
-            String str1="asdf";
-            // int+string muss als string gespeichert werden (int wird umgewandelt)
-            String test = int1+str1;
-            System.out.println(test);
+        // testen
+        Integer int1 = 1;
+        String str1="asdf";
+        // int+string muss als string gespeichert werden (int wird umgewandelt)
+        String test = int1+str1;
+        System.out.println(test);
+
+        Integer i1 = 5;
+        Integer i2 = 2;
+        Double d1 = 5.0;
+        Double d2 =2.0;
+        System.out.println("int / int");
+        System.out.println( i1 / i2 );
+        System.out.println("int % int");
+        System.out.println(i1%i2);
+        System.out.println("int/double");
+        System.out.println( i1/d2);
+        System.out.println("int%double");
+        System.out.println( i1%d2);
+
+
     }
 }

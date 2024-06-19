@@ -41,6 +41,13 @@ public class Main {
         //7.
         System.out.println(ANSI_CYAN+"1\t"+ANSI_GREEN+"2\t"+ANSI_RED+"3\t"+ANSI_BLUE+"4\t"+ANSI_PURPLE+"5"+ANSI_RESET);
         System.out.println(3+7);
+        System.out.println("");
+        System.out.println("");
+        System.out.println("");
+        System.out.println("=== Arbeiten mit Argumenten ===");
+        // Argumente werden oben rechts unter Main->Edit Configurations unter Build and Run
+        // eingetragen und im args-Array gespeichert
+        System.out.println("Das erste Arbument ist "+args[0]+" das zweite Arbument ist "+args[1]);
 
     }
 }

@@ -16,6 +16,7 @@ public class Main {
     public static final String ANSI_WHITE = "\u001B[37m";
 
     public static void main(String[] args) {
+        //00_ue_einfuehrung
         // Variables
         String a = "3";
         String b = "+";
@@ -56,6 +57,8 @@ public class Main {
         // Argumente werden oben rechts unter Main->Edit Configurations unter Build and Run
         // eingetragen und im args-Array gespeichert
         System.out.println("Das erste Arbument ist "+args[0]+" das zweite Arbument ist "+args[1]);
+
+        // 01_ue_variablen1
 
     }
 }

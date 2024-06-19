@@ -23,12 +23,13 @@ public class Main {
         String d = "=";
         String e = "10";
         //1.
-        //
+            //Ausgabe mit verschiedenen Farben
         System.out.println("Hello "+ANSI_RED+"World"+ANSI_RESET+"!");
         //2.
         System.out.println("Benjamin");
         System.out.println("Kranzl");
         //3.+4.
+            // Ausgabe einzeln mit tab-Abständen
         System.out.print("Heute \t");
         System.out.print("ist \t");
         System.out.print("Mittwoch \t");
@@ -37,7 +38,9 @@ public class Main {
         System.out.print("Oktober \t");
         System.out.println("2023 \t");
         //5.
+            // Ausgabe mit Stringeingabe
         System.out.println(ANSI_RED+"3"+"+"+"7"+"="+"10"+ANSI_RESET);
+            //Ausgabe mit Variablen
         System.out.println(a+b+c+d+e);
         //5.1
         System.out.println(ANSI_CYAN+"Hello"+" "+ANSI_GREEN+"World"+ANSI_RESET+"!");
@@ -47,7 +50,9 @@ public class Main {
         System.out.println(ANSI_CYAN+"1\t"+ANSI_GREEN+"2\t"+ANSI_RED+"3\t"+ANSI_BLUE+"4\t"+ANSI_PURPLE+"5"+ANSI_RESET);
         System.out.println(3+7);
         System.out.println("\n\n");
+
         System.out.println("=== Arbeiten mit Argumenten ===");
+
         // Argumente werden oben rechts unter Main->Edit Configurations unter Build and Run
         // eingetragen und im args-Array gespeichert
         System.out.println("Das erste Arbument ist "+args[0]+" das zweite Arbument ist "+args[1]);

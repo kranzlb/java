@@ -16,6 +16,7 @@ public class Main {
     public static final String ANSI_WHITE = "\u001B[37m";
 
     public static void main(String[] args) {
+        //00_ue_einfuehrung
         // Variables
         String a = "3";
         String b = "+";
@@ -57,5 +58,13 @@ public class Main {
         // eingetragen und im args-Array gespeichert
         System.out.println("Das erste Arbument ist "+args[0]+" das zweite Arbument ist "+args[1]);
 
+        // 01_ue_variablen1
+
+            // test
+            Integer int1 = 1;
+            String str1="asdf";
+            // int+string muss als string gespeichert werden (int wird umgewandelt)
+            String test = int1+str1;
+            System.out.println(test);
     }
 }
